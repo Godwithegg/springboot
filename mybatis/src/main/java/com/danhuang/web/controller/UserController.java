@@ -28,4 +28,10 @@ public class UserController {
 		List<User> users = userService.findAllUser(name);
 		return users;
 	}
+	
+	@RequestMapping("/findAll")
+	public List<User> findAll() {
+		List<User> users = userService.findAll();
+		return users;
+	}
 }
