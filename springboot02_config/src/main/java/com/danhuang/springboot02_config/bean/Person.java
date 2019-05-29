@@ -2,6 +2,7 @@ package com.danhuang.springboot02_config.bean;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import javax.validation.Valid;
@@ -17,8 +18,9 @@ import java.util.Map;
  * 只有这个组件是容器中的组件，才能使用容器提供的功能
  */
 @Component
-//@ConfigurationProperties(prefix = "person")
+@ConfigurationProperties(prefix = "person")
 //@Valid
+//@PropertySource(value = {"classpath:person.properties"})
 public class Person {
     //lastname必须是邮箱格式
     //@Email
