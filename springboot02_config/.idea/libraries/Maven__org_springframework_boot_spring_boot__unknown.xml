@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-boot-:unknown">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-/unknown/spring-boot--unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-/unknown/spring-boot--unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
