@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.danhuang.spring_boot_02_config.SpringBoot02ConfigApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.475 s - in com.danhuang.spring_boot_02_config.SpringBoot02ConfigApplicationTests
