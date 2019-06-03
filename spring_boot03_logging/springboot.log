@@ -1,0 +1,22 @@
+2019-05-31 11:43:38.267  INFO 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests on danhuangpai with PID 208 (started by danhuang in D:\github\springboot\spring_boot03_logging)
+2019-05-31 11:43:38.267 DEBUG 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 11:43:38.267  INFO 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-31 11:43:40.449  INFO 208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:43:40.715  INFO 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 3.073 seconds (JVM running for 4.254)
+2019-05-31 11:43:40.918 TRACE 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是trace日志...
+2019-05-31 11:43:40.918 DEBUG 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是debug日志...
+2019-05-31 11:43:40.918  INFO 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是info日志...
+2019-05-31 11:43:40.918  WARN 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是warn日志
+2019-05-31 11:43:40.918 ERROR 208 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是error日志
+2019-05-31 11:43:40.918  INFO 208 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:50:05.565  INFO 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests on danhuangpai with PID 15220 (started by danhuang in D:\github\springboot\spring_boot03_logging)
+2019-05-31 11:50:05.565 DEBUG 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-31 11:50:05.565  INFO 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-31 11:50:08.203  INFO 15220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-31 11:50:08.500  INFO 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 3.748 seconds (JVM running for 5.437)
+2019-05-31 11:50:08.672 TRACE 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是trace日志...
+2019-05-31 11:50:08.672 DEBUG 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是debug日志...
+2019-05-31 11:50:08.672  INFO 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是info日志...
+2019-05-31 11:50:08.672  WARN 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是warn日志
+2019-05-31 11:50:08.672 ERROR 15220 --- [main] .d.s.SpringBoot03LoggingApplicationTests : 这是error日志
+2019-05-31 11:50:08.672  INFO 15220 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
