@@ -8,6 +8,8 @@ import com.danhuang.springboot.entities.Department;
 import com.danhuang.springboot.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 
 @Repository
@@ -51,4 +53,6 @@ public class EmployeeDao {
 	public void delete(Integer id){
 		employees.remove(id);
 	}
+
+
 }

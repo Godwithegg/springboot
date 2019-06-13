@@ -2,6 +2,10 @@ package com.danhuang.springboot.config;
 
 import com.danhuang.springboot.component.LoginHandlerInterceptor;
 import com.danhuang.springboot.component.MyLocaleResolver;
+import org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;
+import org.springframework.boot.web.server.ConfigurableWebServerFactory;
+import org.springframework.boot.web.server.WebServerFactory;
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -11,6 +15,17 @@ import org.springframework.web.servlet.config.annotation.*;
 //@EnableWebMvc  //完全接管了springmvc，没有springmvc自动配置了
 @Configuration
 public class MyMvcConfig extends WebMvcConfigurerAdapter {
+
+    @Bean
+    public WebServerFactoryCustomizer<ConfigurableWebServerFactory> webServerFactoryCustomizer(){
+        return new WebServerFactoryCustomizer<ConfigurableWebServerFactory>() {
+            //定制嵌入式的servlet容器相关的规则
+            @Override
+            public void customize(ConfigurableWebServerFactory factory) {
+                factory.setPort(8083);
+            }
+        };
+    }
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
@@ -35,8 +50,8 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
             public void addInterceptors(InterceptorRegistry registry) {
                 //静态资源：*.csss,*.js
                 //springboot已经做好了静态资源映射
-                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
-                        .excludePathPatterns("/index.html","/","/user/login","/asserts/**","/webjars/**");
+//                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
+//                        .excludePathPatterns("/index.html","/","/user/login","/asserts/**","/webjars/**");
             }
         };
         return support;
