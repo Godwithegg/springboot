@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring_boot04_web_jsp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: danhuang
+Implementation-Vendor-Id: com.danhuang
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_121
+Main-Class: ${start-class}
+
