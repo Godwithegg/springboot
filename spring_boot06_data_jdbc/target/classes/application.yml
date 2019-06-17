@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://192.168.199.205:3306/jdbc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123456
+    initialization-mode: always     #mysql驱动的话要这一句才可以执行sql
+    #schema: classpath:department.sql
+    type: com.alibaba.druid.pool.DruidDataSource
