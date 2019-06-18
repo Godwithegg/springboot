@@ -8,7 +8,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class HelloSpringApplicationRunListener implements SpringApplicationRunListener {
 
     public HelloSpringApplicationRunListener(SpringApplication application,String[] args){
-        
+
     }
     @Override
     public void starting() {
